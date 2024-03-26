@@ -12,7 +12,7 @@ export default function ExperienceSection() {
         Experience
       </h1>
       <div className="grid grid-cols-2 mt-16 mx-[150px] gap-14">
-        <div className=" border-2 border-slate-600 rounded-3xl p-14">
+        <div className="border-2 border-slate-600 rounded-3xl p-14">
           <h2 className="text-3xl flex justify-center mb-8 text-slate-700">Frontend Development</h2>
           <div className="flex justify-center gap-12">
             <div className="">
