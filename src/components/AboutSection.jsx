@@ -2,17 +2,17 @@ import React from "react";
 import Experience from "../assets/experience.png";
 import heroVideo from "../assets/heroVideo.mp4";
 import Education from "../assets/education.png";
-import Arrow from "../assets/arrow.png";
+import ArrowIcon from "../assets/arrow.png";
 
 export default function AboutSection() {
   return (
-    <section className="font-serif">
+    <section className="font-serif pb-12">
       <h1 className="text-[3.4rem] items-center flex justify-center">
         About Me
       </h1>
       <div className="grid grid-cols-2">
         <div className="flex h-auto w-auto ml-[80px]">
-          <div className="min-h-[225px] min-w-[225px] overflow-hidden md:overflow-auto md:w-[860px] md:h-[860px]">
+          <div className="min-h-[225px] min-w-[225px] overflow-hidden md:overflow-auto md:w-[660px] md:h-[660px]">
             <video
               autoPlay
               muted
@@ -23,7 +23,7 @@ export default function AboutSection() {
             ></video>
           </div>
         </div>
-        <div className="grid grid-rows-2 mr-[180px]">
+        <div className="grid grid-rows-2 pr-[180px]">
           <div className="flex justify-center items-center gap-[1.5rem]">
             <div className="border-2 border-slate-400 px-16 py-4 rounded-xl">
               <div className="flex justify-center items-center">
@@ -67,9 +67,9 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-      <div className="flex justify-end mr-16">
-        <img src={Arrow} alt="arrow-icon" className="w-8 h-8" />
-      </div>
+      {/* <div className="flex justify-end pr-14">
+      <img src={ArrowIcon} alt="Arrow icon" className="w-8 h-8 cursor-pointer" />
+      </div> */}
     </section>
   );
 }
