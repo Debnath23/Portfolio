@@ -2,7 +2,6 @@ import React from "react";
 import Experience from "../assets/experience.png";
 import heroVideo from "../assets/heroVideo.mp4";
 import Education from "../assets/education.png";
-import ArrowIcon from "../assets/arrow.png";
 
 export default function AboutSection() {
   return (
@@ -23,7 +22,7 @@ export default function AboutSection() {
             ></video>
           </div>
         </div>
-        <div className="grid grid-rows-2 pr-[180px]">
+        <div className="grid grid-rows-2 pr-[80px]">
           <div className="flex justify-center items-center gap-[1.5rem]">
             <div className="border-2 border-slate-400 px-16 py-4 rounded-xl">
               <div className="flex justify-center items-center">
@@ -37,7 +36,8 @@ export default function AboutSection() {
               <h3 className="flex justify-center items-center text-xl font-semibold">
                 Experience
               </h3>
-              <p className="flex justify-center items-center">2+ years</p>
+              <p className="flex justify-center items-center">Beginner</p>
+
               <p className="flex justify-center items-center">
                 FullStack Development
               </p>
@@ -51,7 +51,7 @@ export default function AboutSection() {
                 Education
               </h3>
               <p className="flex justify-center items-center">
-                B.Sc. Bachelors Degree
+                B.Sc. in Computer Science
               </p>
             </div>
           </div>
@@ -67,9 +67,6 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-      {/* <div className="flex justify-end pr-14">
-      <img src={ArrowIcon} alt="Arrow icon" className="w-8 h-8 cursor-pointer" />
-      </div> */}
     </section>
   );
 }

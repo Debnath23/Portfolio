@@ -2,6 +2,7 @@ import React from "react";
 import ProfilePicture from "../assets/profile-pic.png";
 import Linkedin from "../assets/linkedin.png";
 import GitHub from "../assets/github.png";
+import Resume from "../assets/resume-example.pdf"
 
 export default function HeroSection() {
   return (
@@ -14,7 +15,9 @@ export default function HeroSection() {
         <h1 className="text-[3rem] items-center flex justify-center">Debnath Mahapatra</h1>
         <p className="text-[1.75rem] text-slate-600 mb-[1rem] flex justify-center font-semibold">FullStack Developer</p>
         <div className="flex justify-center gap-[2rem]">
-          <button className="border-2 border-slate-600 rounded-full px-4 py-2 hover:bg-slate-700 hover:text-slate-50">Download CV</button>
+          <button className="border-2 border-slate-600 rounded-full px-4 py-2 hover:bg-slate-700 hover:text-slate-50" onClick={() => {
+            window.open('src/assets/resume-example.pdf')
+          }}>Download CV</button>
           <button className="border-2 border-slate-600 bg-slate-700 text-slate-50 rounded-full px-4 py-2">Contact Info</button>
         </div>
         <div className="flex justify-center mt-[1rem] gap-[1rem]">

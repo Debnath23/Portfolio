@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="font-serif">
       <nav>
         <ul className="flex gap-[2rem] text-[1.7rem] justify-center mb-12">
           <li>

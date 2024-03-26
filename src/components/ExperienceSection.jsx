@@ -1,6 +1,5 @@
 import React from "react";
 import ExperienceElement from "./ExperienceElement";
-import ArrowIcon from "../assets/arrow.png";
 
 export default function ExperienceSection() {
   return (
@@ -67,9 +66,6 @@ export default function ExperienceSection() {
           </div>
         </div>
       </div>
-      {/* <div className="flex justify-end pr-14 pt-8">
-      <img src={ArrowIcon} alt="Arrow icon" className="w-8 h-8 cursor-pointer" />
-      </div> */}
     </section>
   );
 }
