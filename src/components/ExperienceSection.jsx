@@ -63,6 +63,14 @@ export default function ExperienceSection() {
               MONGODB
               <p className="text-lg text-slate-500">Intermediate</p>
             </ExperienceElement>
+            <ExperienceElement>
+              Postman
+              <p className="text-lg text-slate-500">Intermediate</p>
+            </ExperienceElement>
+            <ExperienceElement>
+              Cloudinary
+              <p className="text-lg text-slate-500">Intermediate</p>
+            </ExperienceElement>
           </div>
         </div>
       </div>
