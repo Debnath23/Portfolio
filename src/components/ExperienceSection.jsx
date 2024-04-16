@@ -10,7 +10,7 @@ export default function ExperienceSection() {
       <h1 className="text-[3.4rem] items-center flex justify-center">
         Experience
       </h1>
-      <div className="grid grid-cols-2 mt-16 mx-[50px] gap-14">
+      <div className="grid grid-cols-2 mt-16 mx-[150px] gap-14">
         <div className="border-2 border-slate-600 rounded-3xl p-14">
           <h2 className="text-3xl flex justify-center mb-8 text-slate-700">
             Frontend Development
