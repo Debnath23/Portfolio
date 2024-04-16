@@ -42,7 +42,7 @@ export default function AboutSection() {
                 FullStack Development
               </p>
             </div>
-            <div className="border-2 border-slate-400 px-16 py-7 rounded-xl">
+            <div className="border-2 border-slate-400 px-16 py-4 rounded-xl">
               <div className="flex justify-center items-center">
                 <img src={Education} alt="education-icon" className="w-8 h-8" />
               </div>

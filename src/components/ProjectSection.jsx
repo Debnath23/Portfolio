@@ -10,7 +10,7 @@ export default function ProjectSection() {
         <p className="text-[1.2rem] items-center flex justify-center text-slate-600">Browse My Recent</p>
         <h1 className="text-[3.4rem] items-center flex justify-center">Projects</h1>
         </div>
-    <div className="grid grid-cols-3 gap-10 mx-36">
+    <div className="grid grid-cols-3 gap-10 mx-6">
       <div className="border-2 p-8 border-slate-600 rounded-2xl">
         <div className="flex justify-center">
           <img
