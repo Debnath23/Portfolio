@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="/*" element={<HeroSection />} />
+        <Route path="/" element={<HeroSection />} />
         <Route path="/about" element={<AboutSection />} />
         <Route path="/experience" element={<ExperienceSection />} />
         <Route path="/project" element={<ProjectSection />} />
